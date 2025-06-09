@@ -1,0 +1,196 @@
+{
+  "id": "Python",
+  "entity_type": "编程语言",
+  "level": "1",
+  "description": "Python是一种广泛使用的高级编程语言，支持多种编程范式。",
+  "style": {
+    "fill": "#3572A5"
+  },
+  "source": "graphml",
+  "children": [
+    {
+      "id": "深度学习",
+      "entity_type": "机器学习分支",
+      "level": "2",
+      "description": "深度学习是机器学习的一个子领域，使用多层神经网络来建模复杂的数据模式。",
+      "style": {
+        "fill": "#6F42C1"
+      },
+      "source": "pdf/Deeplearning深度学习笔记v5.6.pdf",
+      "children": [
+        {
+          "id": "神经网络",
+          "entity_type": "模型架构",
+          "level": "3",
+          "description": "神经网络是受生物神经元启发的计算模型，用于模式识别和预测任务。",
+          "style": {
+            "fill": "#6F42C1"
+          },
+          "source": "pdf/Deeplearning深度学习笔记v5.6.pdf",
+          "children": [
+            {
+              "id": "卷积神经网络",
+              "entity_type": "神经网络类型",
+              "level": "4",
+              "description": "专门处理网格结构数据（如图像）的神经网络，通过卷积操作自动提取特征。",
+              "style": {
+                "fill": "#6F42C1"
+              },
+              "source": "pdf/Deeplearning深度学习笔记v5.6.pdf",
+              "children": [
+                {
+                  "id": "过滤器",
+                  "entity_type": "组件",
+                  "level": "5",
+                  "description": "卷积操作中用于特征提取的小矩阵，可检测边缘等局部特征。",
+                  "style": {
+                    "fill": "#6F42C1"
+                  },
+                  "source": "pdf/Deeplearning深度学习笔记v5.6.pdf"
+                },
+                {
+                  "id": "池化层",
+                  "entity_type": "网络层",
+                  "level": "5",
+                  "description": "通过下采样减少空间维度，保留重要特征并降低计算复杂度。",
+                  "style": {
+                    "fill": "#6F42C1"
+                  },
+                  "source": "pdf/Deeplearning深度学习笔记v5.6.pdf"
+                }
+              ]
+            },
+            {
+              "id": "循环神经网络",
+              "entity_type": "神经网络类型",
+              "level": "4",
+              "description": "处理序列数据的神经网络结构，具有时间动态特性。",
+              "style": {
+                "fill": "#6F42C1"
+              },
+              "source": "pdf/Python深度学习C3.pdf"
+            }
+          ]
+        },
+        {
+          "id": "损失函数",
+          "entity_type": "优化组件",
+          "level": "3",
+          "description": "量化模型预测与真实值差异的函数，指导模型参数优化方向。",
+          "style": {
+            "fill": "#E34F26"
+          },
+          "source": "pdf/Deeplearning深度学习笔记v5.6.pdf",
+          "children": [
+            {
+              "id": "交叉熵损失",
+              "entity_type": "损失函数类型",
+              "level": "4",
+              "description": "常用于分类任务，衡量预测概率分布与真实分布的差异。",
+              "style": {
+                "fill": "#E34F26"
+              },
+              "source": "pdf/Deeplearning深度学习笔记v5.6.pdf"
+            }
+          ]
+        },
+        {
+          "id": "优化算法",
+          "entity_type": "训练方法",
+          "level": "3",
+          "description": "调整模型参数以最小化损失函数的数学方法。",
+          "style": {
+            "fill": "#F1E05A"
+          },
+          "source": "pdf/Deeplearning深度学习笔记v5.6.pdf",
+          "children": [
+            {
+              "id": "Adam",
+              "entity_type": "优化器",
+              "level": "4",
+              "description": "结合动量与自适应学习率的优化算法，适用于非平稳目标函数。",
+              "style": {
+                "fill": "#F1E05A"
+              },
+              "source": "pdf/Deeplearning深度学习笔记v5.6.pdf"
+            },
+            {
+              "id": "梯度下降",
+              "entity_type": "优化基础",
+              "level": "4",
+              "description": "通过计算损失函数梯度迭代更新参数的经典方法。",
+              "style": {
+                "fill": "#F1E05A"
+              },
+              "source": "pdf/Deeplearning深度学习笔记v5.6.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "机器学习",
+      "entity_type": "人工智能分支",
+      "level": "2",
+      "description": "通过算法让计算机从数据中学习规律，而无需显式编程。",
+      "style": {
+        "fill": "#B07219"
+      },
+      "source": "pdf/Deeplearning深度学习笔记v5.6.pdf",
+      "children": [
+        {
+          "id": "表示学习",
+          "entity_type": "核心问题",
+          "level": "3",
+          "description": "自动发现数据的有用表示形式以简化后续任务。",
+          "style": {
+            "fill": "#B07219"
+          },
+          "source": "pdf/Python深度学习C1.pdf"
+        },
+        {
+          "id": "核方法",
+          "entity_type": "算法类别",
+          "level": "3",
+          "description": "通过核函数在高维空间隐式计算，避免显式特征变换。",
+          "style": {
+            "fill": "#B07219"
+          },
+          "source": "pdf/Python深度学习C1.pdf"
+        }
+      ]
+    },
+    {
+      "id": "路径规划算法",
+      "entity_type": "算法类别",
+      "level": "2",
+      "description": "在约束条件下寻找最优移动路径的计算方法。",
+      "style": {
+        "fill": "#555555"
+      },
+      "source": "document/Neural_RRT_Learning-Based_Optimal_Path_Planning.pdf",
+      "children": [
+        {
+          "id": "RRT*",
+          "entity_type": "采样算法",
+          "level": "3",
+          "description": "渐进最优的随机采样路径规划算法，通过重布线保证收敛性。",
+          "style": {
+            "fill": "#555555"
+          },
+          "source": "document/Neural_RRT_Learning-Based_Optimal_Path_Planning.pdf"
+        },
+        {
+          "id": "NRRT*",
+          "entity_type": "改进算法",
+          "level": "3",
+          "description": "结合神经网络预测最优路径分布的高效RRT*变体。",
+          "style": {
+            "fill": "#555555"
+          },
+          "source": "document/Neural_RRT_Learning-Based_Optimal_Path_Planning.pdf"
+        }
+      ]
+    }
+  ]
+}

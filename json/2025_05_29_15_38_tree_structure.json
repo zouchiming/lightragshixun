@@ -1,0 +1,228 @@
+{
+  "id": "Python",
+  "entity_type": "category",
+  "level": "0",
+  "description": "Python编程语言",
+  "style": {
+    "fill": "#4B8BBE"
+  },
+  "source": "graphml",
+  "children": [
+    {
+      "id": "人工智能",
+      "entity_type": "category",
+      "level": "1",
+      "description": "能够执行通常需要人类智能的任务的计算机系统，包括学习、推理、问题解决等",
+      "style": {
+        "fill": "#FFD43B"
+      },
+      "source": "document/Python深度学习_chapter_1.txt",
+      "children": [
+        {
+          "id": "机器学习",
+          "entity_type": "category",
+          "level": "2",
+          "description": "通过算法使计算机系统从数据中学习和改进的方法",
+          "style": {
+            "fill": "#FFD43B"
+          },
+          "source": "document/Python深度学习_chapter_1.txt",
+          "children": [
+            {
+              "id": "深度学习",
+              "entity_type": "category",
+              "level": "3",
+              "description": "利用神经网络模型从大量数据中学习的机器学习方法",
+              "style": {
+                "fill": "#FFD43B"
+              },
+              "source": "document/Python深度学习_chapter_1.txt",
+              "children": [
+                {
+                  "id": "卷积神经网络",
+                  "entity_type": "category",
+                  "level": "4",
+                  "description": "特别适用于图像分类和图像识别任务的深度学习模型",
+                  "style": {
+                    "fill": "#FFD43B"
+                  },
+                  "source": "document/Python深度学习_chapter_1.txt",
+                  "children": []
+                },
+                {
+                  "id": "长短期记忆算法",
+                  "entity_type": "category",
+                  "level": "4",
+                  "description": "特别适用于处理时间序列数据的深度学习模型",
+                  "style": {
+                    "fill": "#FFD43B"
+                  },
+                  "source": "document/Python深度学习_chapter_1.txt",
+                  "children": []
+                },
+                {
+                  "id": "反向传播",
+                  "entity_type": "category",
+                  "level": "4",
+                  "description": "用于计算神经网络中梯度的算法",
+                  "style": {
+                    "fill": "#FFD43B"
+                  },
+                  "source": "document/Python深度学习_chapter_1.txt",
+                  "children": []
+                },
+                {
+                  "id": "梯度传播",
+                  "entity_type": "event",
+                  "level": "4",
+                  "description": "深度学习中的关键训练过程",
+                  "style": {
+                    "fill": "#FFD43B"
+                  },
+                  "source": "document/Python深度学习_chapter_1.txt",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "统计学习",
+              "entity_type": "category",
+              "level": "3",
+              "description": "与数理统计密切相关但更侧重处理大型复杂数据集的机器学习分支",
+              "style": {
+                "fill": "#FFD43B"
+              },
+              "source": "document/Python深度学习_chapter_1.txt",
+              "children": []
+            },
+            {
+              "id": "朴素贝叶斯算法",
+              "entity_type": "technology",
+              "level": "3",
+              "description": "基于贝叶斯定理的机器学习分类器",
+              "style": {
+                "fill": "#FFD43B"
+              },
+              "source": "document/Python深度学习_chapter_1.txt",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "符号主义人工智能",
+          "entity_type": "event",
+          "level": "2",
+          "description": "基于逻辑规则和硬编码知识的人工智能方法",
+          "style": {
+            "fill": "#FFD43B"
+          },
+          "source": "document/Python深度学习_chapter_1.txt",
+          "children": [
+            {
+              "id": "专家系统",
+              "entity_type": "event",
+              "level": "3",
+              "description": "基于知识库和推理规则的计算机系统",
+              "style": {
+                "fill": "#FFD43B"
+              },
+              "source": "document/Python深度学习_chapter_1.txt",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "路径规划",
+      "entity_type": "category",
+      "level": "1",
+      "description": "计算从初始状态到目标状态的可行路径的过程",
+      "style": {
+        "fill": "#646464"
+      },
+      "source": "document/Neural_RRT_Learning-Based_Optimal_Path_Planning.pdf",
+      "children": [
+        {
+          "id": "NRRT*算法",
+          "entity_type": "category",
+          "level": "2",
+          "description": "结合CNN模型和RRT*算法实现非均匀采样的学习型最优路径规划算法",
+          "style": {
+            "fill": "#646464"
+          },
+          "source": "document/Neural_RRT_Learning-Based_Optimal_Path_Planning.pdf",
+          "children": [
+            {
+              "id": "A*算法",
+              "entity_type": "organization",
+              "level": "3",
+              "description": "使用启发式方法寻找最优路径的图遍历算法",
+              "style": {
+                "fill": "#646464"
+              },
+              "source": "document/Neural_RRT_Learning-Based_Optimal_Path_Planning.pdf",
+              "children": []
+            },
+            {
+              "id": "RRT*算法",
+              "entity_type": "organization",
+              "level": "3",
+              "description": "保证渐进最优性的采样型路径规划算法",
+              "style": {
+                "fill": "#646464"
+              },
+              "source": "document/Neural_RRT_Learning-Based_Optimal_Path_Planning.pdf",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "最优路径规划",
+          "entity_type": "category",
+          "level": "2",
+          "description": "专注于根据成本函数寻找最优路径的路径规划子领域",
+          "style": {
+            "fill": "#646464"
+          },
+          "source": "document/Neural_RRT_Learning-Based_Optimal_Path_Planning.pdf",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "张量运算",
+      "entity_type": "category",
+      "level": "1",
+      "description": "神经网络中的基本数学概念",
+      "style": {
+        "fill": "#9370DB"
+      },
+      "source": "document/Python深度学习_chapter_2.txt",
+      "children": [
+        {
+          "id": "2D张量",
+          "entity_type": "category",
+          "level": "2",
+          "description": "具有2个轴的张量，等价于矩阵",
+          "style": {
+            "fill": "#9370DB"
+          },
+          "source": "document/Python深度学习_chapter_2.txt",
+          "children": []
+        },
+        {
+          "id": "3D张量",
+          "entity_type": "category",
+          "level": "2",
+          "description": "具有3个轴的张量，用于存储时间序列数据",
+          "style": {
+            "fill": "#9370DB"
+          },
+          "source": "document/Python深度学习_chapter_2.txt",
+          "children": []
+        }
+      ]
+    }
+  ]
+}
