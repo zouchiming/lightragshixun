@@ -11,7 +11,7 @@ from xlrd.xlsx import ET
 import tempfile
 
 from lightrag import LightRAG, QueryParam
-from lightrag.llm import openai_complete_if_cache
+from lightrag.llm.openai import openai_complete_if_cache
 from lightrag.llm.zhipu import zhipu_complete_if_cache, zhipu_embedding
 from lightrag.utils import EmbeddingFunc
 from lightrag.kg.shared_storage import initialize_pipeline_status
@@ -37,7 +37,7 @@ secret_id = 'AKIDCOOCnCPPBk6GDyX3SecM7qR1VyGMPFuM'
 secret_key = 'PcicKrDNL8j7HF1bx51kGYcYGn7E7mGZ'
 region = 'ap-beijing'
 bucket = 'pythonai-1354209443'
-cos_folder = 'document/'
+cos_folder = 'pdf/'
 
 config = CosConfig(Region=region, SecretId=secret_id, SecretKey=secret_key)
 client = CosS3Client(config)
